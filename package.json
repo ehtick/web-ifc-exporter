@@ -1,0 +1,31 @@
+{
+  "name": "web-ifc-exporter-root",
+  "description": "A simple and efficient exporter for IFC.",
+  "version": "0.0.1",
+  "private": true,
+  "main": "library/src/IFCExporter.ts",
+  "author": "agviegas",
+  "license": "MIT",
+  "repository": "git+https://github.com/ifcjs/web-ifc-exporter",
+  "scripts": {
+    "init-repo": "yarn && npm run build",
+    "build": "cd library && yarn build && cd .. && yarn build-examples",
+    "build-examples": "node example-builder.js",
+    "publish-repo": "cd library && npm run publish-repo"
+  },
+  "bugs": {
+    "url": "https://github.com/agviegas/web-ifc-viewer/issues"
+  },
+  "keywords": [
+    "ifc",
+    "geometry",
+    "threejs",
+    "bim",
+    "3d"
+  ],
+  "workspaces": [
+    "library",
+    "examples/hello-world"
+  ],
+  "dependencies": {}
+}
