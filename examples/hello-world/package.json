@@ -22,6 +22,7 @@
     "@types/three": "^0.134.0",
     "stats.js": "^0.17.0",
     "three": "0.135",
+    "web-ifc": "^0.0.35",
     "web-ifc-exporter": "0.0.1"
   }
 }

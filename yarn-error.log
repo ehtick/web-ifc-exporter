@@ -2,7 +2,7 @@ Arguments:
   C:\Program Files\nodejs\node.exe C:\Users\anton\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
 
 PATH: 
-  C:\Users\anton\AppData\Local\Temp\yarn--1658747178613-0.555561771860041;C:\Users\anton\Desktop\IFCjs\web-ifc-exporter\node_modules\.bin;C:\Users\anton\AppData\Local\Yarn\Data\link\node_modules\.bin;C:\Users\anton\Desktop\IFCjs\web-ifc-exporter\node_modules\.bin;C:\Program Files\libexec\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\anton\AppData\Local\Temp\yarn--1658747176348-0.897930586902097;C:\Users\anton\Desktop\IFCjs\web-ifc-exporter\node_modules\.bin;C:\Users\anton\AppData\Local\Yarn\Data\link\node_modules\.bin;C:\Users\anton\Desktop\IFCjs\web-ifc-exporter\node_modules\.bin;C:\Users\anton\AppData\Local\Yarn\bin;C:\Program Files\libexec\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\anton\AppData\Local\Microsoft\WindowsApps;C:\Users\anton\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\anton\AppData\Roaming\npm;C:\Users\anton\AppData\Local\gitkraken\bin;C:\Users\anton\Desktop\IFCjs\web-ifc-exporter\node_modules\.bin
+  C:\Users\anton\AppData\Local\Temp\yarn--1659366939353-0.751716859498682;C:\Users\anton\Desktop\IFCjs\web-ifc-exporter\node_modules\.bin;C:\Users\anton\AppData\Local\Yarn\Data\link\node_modules\.bin;C:\Users\anton\Desktop\IFCjs\web-ifc-exporter\node_modules\.bin;C:\Program Files\libexec\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\anton\AppData\Local\Temp\yarn--1659366933801-0.4944150411356518;C:\Users\anton\Desktop\IFCjs\web-ifc-exporter\node_modules\.bin;C:\Users\anton\AppData\Local\Yarn\Data\link\node_modules\.bin;C:\Users\anton\Desktop\IFCjs\web-ifc-exporter\node_modules\.bin;C:\Users\anton\AppData\Local\Yarn\bin;C:\Program Files\libexec\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\anton\AppData\Local\Microsoft\WindowsApps;C:\Users\anton\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\anton\AppData\Roaming\npm;C:\Users\anton\AppData\Local\gitkraken\bin;C:\Users\anton\Desktop\IFCjs\web-ifc-exporter\node_modules\.bin
 
 Yarn version: 
   1.22.19
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: ENOENT: no such file or directory, lstat 'C:\Users\anton\Desktop\IFCjs\web-ifc-exporter\node_modules\tsconfig-paths\node_modules\.bin'
+  Error: ENOENT: no such file or directory, stat 'C:\Users\anton\Desktop\IFCjs\web-ifc-exporter\node_modules\hello-world'
 
 npm manifest: 
   {
@@ -3146,6 +3146,11 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
     integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
   
+  three-mesh-bvh@^0.5.11:
+    version "0.5.15"
+    resolved "https://registry.yarnpkg.com/three-mesh-bvh/-/three-mesh-bvh-0.5.15.tgz#bcf681d784d8988618344a5e11e7ded7e76ee86a"
+    integrity sha512-jxE5iGjcoEMiyxUs7hMeZL6jBXBz9973ilqhXPhKlA1f7eitjIxRTtu7UWVQy+PhxXTsknmPzWmN5c+uAa/anA==
+  
   three@0.135:
     version "0.135.0"
     resolved "https://registry.yarnpkg.com/three/-/three-0.135.0.tgz#cff4ec8edd3c51ce9bc7e88d13e8eafed4d0ddfc"
@@ -3336,6 +3341,19 @@ Lockfile:
     version "1.1.2"
     resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
     integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
+  
+  web-ifc-three@^0.0.118:
+    version "0.0.118"
+    resolved "https://registry.yarnpkg.com/web-ifc-three/-/web-ifc-three-0.0.118.tgz#25ca284c1911773e616882833c2fc616150aca5a"
+    integrity sha512-xNNvP+wBGrNBtcC37W0lPdy69hNBjLPmyrYJNqeuyLM7vy12A+fB8TsMOMXVYRCLlOmRQR0uQS0m0KgYYbxlnA==
+    dependencies:
+      three-mesh-bvh "^0.5.11"
+      web-ifc "^0.0.35"
+  
+  web-ifc@^0.0.35:
+    version "0.0.35"
+    resolved "https://registry.yarnpkg.com/web-ifc/-/web-ifc-0.0.35.tgz#60506779b82677a7b2977b7e784feddec494264b"
+    integrity sha512-if/L9RiJAD+jJ1oWtHj44+o2NG6K6azK0otE9Pbppr5hNBnouYfJQNmnHZ+Ya+wZeaByo9KeU64D60Y6lFnT4w==
   
   which-boxed-primitive@^1.0.2:
     version "1.0.2"
