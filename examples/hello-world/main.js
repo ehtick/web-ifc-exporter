@@ -1,7 +1,7 @@
 import { ThreeScene } from '../utils/scene';
 import { IFCExporter } from 'web-ifc-exporter';
 import { BoxGeometry, MeshLambertMaterial, Vector3, Mesh } from 'three';
-import { IFCFURNISHINGELEMENT } from 'web-ifc';
+import { IfcFurnishingElement, IFCFURNISHINGELEMENT } from 'web-ifc';
 
 const threeScene = new ThreeScene();
 async function exportModels() {
@@ -18,8 +18,8 @@ async function exportModels() {
          geometries: [box.geometry],
          geometryMaterials: [box.material],
          placement: new Vector3(),
-         ifcElementId: 123,
-         ifcElementType: IFCFURNISHINGELEMENT
+         ifcElementId: IFCFURNISHINGELEMENT,
+         ifcElementType: IfcFurnishingElement
       }
    ])
 }

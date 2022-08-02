@@ -87799,7 +87799,7 @@
 	    }
 	    async Product(constructor, typeID, productShape, placement) {
 	        const ID = EID++;
-	        const pt = new constructor(ID, typeID, str(Math.random().toString(16).substr(2, 8)), empty(), str('name'), empty(), str('label'), placement, productShape, str(''), empty());
+	        const pt = new constructor(ID, typeID, str(Math.random().toString(16).substring(2, 8)), empty(), str('name'), empty(), str('label'), placement, productShape, str(''), empty());
 	        await this.Write(pt);
 	        return ref(ID);
 	    }
@@ -88063,8 +88063,8 @@
 	         geometries: [box.geometry],
 	         geometryMaterials: [box.material],
 	         placement: new Vector3(),
-	         ifcElementId: 123,
-	         ifcElementType: IFCFURNISHINGELEMENT
+	         ifcElementId: IFCFURNISHINGELEMENT,
+	         ifcElementType: IfcFurnishingElement
 	      }
 	   ]);
 	}

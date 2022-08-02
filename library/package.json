@@ -25,7 +25,10 @@
     "url": "https://github.com/ifcjs/fragment/issues"
   },
   "homepage": "https://github.com/ifcjs/fragment",
-  "dependencies": {},
+  "dependencies": {
+    "web-ifc": "^0.0.35",
+    "web-ifc-three": "^0.0.118"
+  },
   "devDependencies": {
     "@types/node": "^14.14.31",
     "@types/three": "^0.134.0",
